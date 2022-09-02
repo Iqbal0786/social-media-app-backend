@@ -16,4 +16,4 @@ const mongoose= require("mongoose");
     });
   
     // creating the post model means posts collections 
-    module.exports= mongoose.model("post",feedSchema);
+    module.exports= mongoose.model("feed",feedSchema);
